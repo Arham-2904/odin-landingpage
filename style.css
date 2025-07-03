@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+    color: white;
+    padding: 10px 80px;
+    font-size: 24px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.top {
+    background-color: #1f2937;
+
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 100px;
+}
+
+.firstleft {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.firstsection h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.firstleft button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.secondsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+.seconddown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondsection h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 10px;
+}
+
+.card img {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
+
+.thirdsection {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+    padding: 80px 200px;
+}
+
+.thirdsection footer {
+    font-weight: 700;
+    font-style: normal;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.wrapper {
+    background-color: white;
+    padding: 100px 500px;
+}
+
+.fourthsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+}
+
+.fourthRight button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.last {
+    background-color: #1f2937;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
